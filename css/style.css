@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f6ff;
+    color: #333;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(135deg, #7b2ff7, #9a6bff);
+    color: white;
+    border-radius: 10px;
+}
+
+/* NAVIGATION */
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #7b2ff7;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background: white;
+    color: #7b2ff7;
+    border-color: #7b2ff7;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+/* SECTIONS WITH BORDER */
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #d8caff;
+    border-radius: 8px;
+}
+
+/* ABOUT ME – IMAGE STYLING */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #9a6bff;
+}
+
+/* PROJECT GALLERY */
+.project {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    text-align: center;
+}
+
+.project img {
+    max-width: 260px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin-bottom: 5px;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+    border-color: #7b2ff7;
+}
+
+/* CONTACT FORM */
+form {
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #b79cff;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #7b2ff7;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #581ccc;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
